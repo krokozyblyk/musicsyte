@@ -5,7 +5,7 @@
     "buildCommand": "cd social-service && mvn clean package -DskipTests"
   },
   "deploy": {
-    "startCommand": "cd social-service && java -jar target/social-service-1.0.0.jar",
+    "startCommand": "bash social-service/start.sh",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }

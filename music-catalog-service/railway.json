@@ -5,7 +5,7 @@
     "buildCommand": "cd music-catalog-service && mvn clean package -DskipTests"
   },
   "deploy": {
-    "startCommand": "cd music-catalog-service && java -jar target/music-catalog-service-1.0.0.jar",
+    "startCommand": "bash music-catalog-service/start.sh",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }

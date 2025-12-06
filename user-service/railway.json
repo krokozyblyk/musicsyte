@@ -5,7 +5,7 @@
     "buildCommand": "cd user-service && mvn clean package -DskipTests"
   },
   "deploy": {
-    "startCommand": "cd user-service && java -jar target/user-service-1.0.0.jar",
+    "startCommand": "bash user-service/start.sh",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }

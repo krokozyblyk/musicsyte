@@ -5,7 +5,7 @@
     "buildCommand": "cd search-service && mvn clean package -DskipTests"
   },
   "deploy": {
-    "startCommand": "cd search-service && java -jar target/search-service-1.0.0.jar",
+    "startCommand": "bash search-service/start.sh",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
