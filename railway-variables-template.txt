@@ -1,0 +1,105 @@
+# Шаблон переменных окружения для Railway
+
+# ============================================
+# ПЕРЕМЕННЫЕ ДЛЯ ВСЕХ СЕРВИСОВ (кроме Config и Eureka)
+# ============================================
+# Скопируйте эти переменные из PostgreSQL в Railway
+
+PGHOST=ваш_pghost_из_railway
+PGPORT=ваш_pgport_из_railway
+PGUSER=ваш_pguser_из_railway
+PGPASSWORD=ваш_pgpassword_из_railway
+PGDATABASE=ваш_pgdatabase_из_railway
+DATABASE_URL=ваш_database_url_из_railway
+
+# ============================================
+# ДЛЯ КАЖДОГО СЕРВИСА ДОБАВЬТЕ:
+# ============================================
+
+# Config Server
+SERVER_PORT=8888
+SPRING_PROFILES_ACTIVE=prod
+
+# Eureka Server
+SERVER_PORT=8761
+SPRING_PROFILES_ACTIVE=prod
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# User Service
+SERVER_PORT=8081
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Music Catalog Service
+SERVER_PORT=8082
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Notification Service
+SERVER_PORT=8083
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Analytics Service
+SERVER_PORT=8084
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Recommendation Service
+SERVER_PORT=8085
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Search Service
+SERVER_PORT=8086
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# Social Service
+SERVER_PORT=8087
+SPRING_PROFILES_ACTIVE=prod
+SPRING_DATASOURCE_URL=jdbc:postgresql://${PGHOST}:${PGPORT}/${PGDATABASE}
+SPRING_DATASOURCE_USERNAME=${PGUSER}
+SPRING_DATASOURCE_PASSWORD=${PGPASSWORD}
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# API Gateway
+SERVER_PORT=8080
+SPRING_PROFILES_ACTIVE=prod
+SPRING_CLOUD_CONFIG_URI=http://config-server:8888
+EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
+
+# ============================================
+# ИНСТРУКЦИЯ:
+# ============================================
+# 1. Откройте PostgreSQL в Railway
+# 2. Перейдите во вкладку "Variables"
+# 3. Скопируйте значения PGHOST, PGPORT, PGUSER, PGPASSWORD, PGDATABASE, DATABASE_URL
+# 4. Замените "ваш_..." в этом файле на реальные значения
+# 5. Для каждого сервиса в Railway добавьте соответствующие переменные из этого файла
+

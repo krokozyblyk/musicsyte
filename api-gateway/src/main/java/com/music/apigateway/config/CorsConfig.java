@@ -7,7 +7,6 @@ import org.springframework.web.cors.reactive.CorsWebFilter;
 import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
 import java.util.Arrays;
-import java.util.List;
 
 @Configuration
 public class CorsConfig {
@@ -17,12 +16,20 @@ public class CorsConfig {
         CorsConfiguration corsConfig = new CorsConfiguration();
         
         // Разрешенные источники
-        corsConfig.setAllowedOrigins(Arrays.asList(
-            "http://localhost:3000",
-            "http://localhost:8080",
-            "http://127.0.0.1:3000",
-            "http://127.0.0.1:8080"
-        ));
+        // Получаем разрешенные домены из переменных окружения или используем по умолчанию
+        String allowedOriginsEnv = System.getenv("CORS_ALLOWED_ORIGINS");
+        if (allowedOriginsEnv != null && !allowedOriginsEnv.isEmpty()) {
+            corsConfig.setAllowedOrigins(Arrays.asList(allowedOriginsEnv.split(",")));
+        } else {
+            corsConfig.setAllowedOrigins(Arrays.asList(
+                "http://localhost:3000",
+                "http://localhost:8080",
+                "http://127.0.0.1:3000",
+                "http://127.0.0.1:8080",
+                "https://*.vercel.app",
+                "https://*.railway.app"
+            ));
+        }
         
         // Разрешенные методы
         corsConfig.setAllowedMethods(Arrays.asList(

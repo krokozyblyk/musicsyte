@@ -206,3 +206,8 @@ curl -X PUT http://localhost:8080/api/notifications/1/read
 - API доступен как напрямую на порту 8084, так и через API Gateway на порту 8080
 
 
+
+
+
+
+

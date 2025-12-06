@@ -4,115 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b754a0b2-060b-4482-a5e4-d5f951182ed1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logo/logo1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b754a0b2-060b-4482-a5e4-d5f951182ed1" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DATABASE_SETUP.md" beforeDir="false" afterPath="$PROJECT_DIR$/DATABASE_SETUP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/music/apigateway/controller/FallbackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/music/apigateway/controller/FallbackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/ApiGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/ApiGatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/controller/FallbackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/controller/FallbackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/music-catalog-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/music-catalog-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/notification-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/notification-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/user-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/config/user-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/com/music/configserver/ConfigServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/com/music/configserver/ConfigServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/config/music-catalog-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/config/music-catalog-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/config/notification-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/config/notification-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/target/classes/config/user-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/target/classes/config/user-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/init-db.sql" beforeDir="false" afterPath="$PROJECT_DIR$/docker/init-db.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/music/eurekaserver/EurekaServerApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/music/eurekaserver/EurekaServerApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/admin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/album.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/artist.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/artist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/css/player.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/player.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/genre.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/album-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/album-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/artist-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/artist-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/genre-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/genre-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/player.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/player.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/playlist-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/playlist-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/js/track-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/js/track-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/playlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/playlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/track.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/track.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logo/logo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/logo/logo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/music-catalog-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/music-catalog-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/notification-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/notification-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/user-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/user-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/controller/TrackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/controller/TrackController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/dto/TrackDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/dto/TrackDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/entity/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/entity/Track.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/repository/TrackPlayRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/repository/TrackPlayRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/repository/TrackRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/repository/TrackRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/service/TrackPlayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/service/TrackPlayService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/service/TrackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/java/com/music/musiccatalogservice/service/TrackService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/MusicCatalogServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/MusicCatalogServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/AlbumController.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/AlbumController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/ArtistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/ArtistController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/FileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/FileController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/TrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/controller/TrackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/AlbumDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/AlbumDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/ArtistDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/ArtistDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/TrackDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/dto/TrackDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Album.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Album.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Artist.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Artist.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Track.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/Track.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/TrackPlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/entity/TrackPlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/AlbumRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/AlbumRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/ArtistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/ArtistRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/TrackPlayRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/TrackPlayRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/TrackRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/repository/TrackRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/AlbumService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/AlbumService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/ArtistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/ArtistService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/AudioDurationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/AudioDurationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/FileDownloadService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/FileDownloadService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/TrackPlayService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/TrackPlayService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/TrackService.class" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/classes/com/music/musiccatalogservice/service/TrackService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/NotificationServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/NotificationServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/controller/NotificationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/controller/NotificationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/dto/NotificationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/dto/NotificationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/entity/Notification.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/entity/Notification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/exception/GlobalExceptionHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/repository/NotificationRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/repository/NotificationRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/service/NotificationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/target/classes/com/music/notificationservice/service/NotificationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-all.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/start-all.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/start-db.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/start-db.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stop-db.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/stop-db.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/music/userservice/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API_DOCUMENTATION_INDEX.md" beforeDir="false" afterPath="$PROJECT_DIR$/API_DOCUMENTATION_INDEX.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT_COMMIT_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT_FIX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GIT_PUSH_FIX.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MICROSERVICES_OVERVIEW.md" beforeDir="false" afterPath="$PROJECT_DIR$/MICROSERVICES_OVERVIEW.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music-catalog-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recommendation-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/search-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/social-service/API_DOCUMENTATION.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/API_DOCUMENTATION.md" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/API_DOCUMENTATION.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/UserServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/UserServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/FavoriteTrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/FavoriteTrackController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/PlaylistController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/PlaylistController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/PlaylistTrackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/PlaylistTrackController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/PlaylistDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/PlaylistDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserCreateDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserCreateDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserUpdateDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/dto/UserUpdateDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/FavoriteTrack$FavoriteTrackId.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/FavoriteTrack$FavoriteTrackId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/FavoriteTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/FavoriteTrack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/Playlist.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/Playlist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/PlaylistTrack$PlaylistTrackId.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/PlaylistTrack$PlaylistTrackId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/PlaylistTrack.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/PlaylistTrack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/entity/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/exception/GlobalExceptionHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/exception/GlobalExceptionHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/FavoriteTrackRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/FavoriteTrackRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/PlaylistRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/PlaylistRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/PlaylistTrackRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/PlaylistTrackRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/service/PlaylistService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/service/PlaylistService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/music/userservice/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,6 +55,31 @@
     &quot;assignee&quot;: &quot;krokozyblyk&quot;
   }
 }</component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="docs/api-documentation" />
+                    <option name="lastUsedInstant" value="1762161782" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1762161781" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/chupuka/music_proj_www&quot;,
@@ -146,41 +98,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AnalyticsServiceApplication.executor": "Run",
-    "Spring Boot.ApiGatewayApplication.executor": "Run",
-    "Spring Boot.ConfigServerApplication.executor": "Run",
-    "Spring Boot.EurekaServerApplication.executor": "Run",
-    "Spring Boot.MusicCatalogServiceApplication.executor": "Run",
-    "Spring Boot.NotificationServiceApplication.executor": "Run",
-    "Spring Boot.RecommendationServiceApplication.executor": "Run",
-    "Spring Boot.SearchServiceApplication.executor": "Run",
-    "Spring Boot.SocialServiceApplication.executor": "Run",
-    "Spring Boot.UserServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/pract/chibuk/PROEKT MUSIC SYTE/music_proj_www",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AnalyticsServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MusicCatalogServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.NotificationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.RecommendationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SearchServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SocialServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.UserServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;docs/api-documentation&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/pract/chibuk/PROEKT MUSIC SYTE/music_proj_www&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -334,11 +286,53 @@
       <workItem from="1762033688898" duration="3391000" />
       <workItem from="1762038675861" duration="7908000" />
       <workItem from="1762083800493" duration="20361000" />
+      <workItem from="1762113513041" duration="652000" />
+      <workItem from="1762114922558" duration="91000" />
+      <workItem from="1762158528795" duration="2084000" />
+      <workItem from="1762347931050" duration="649000" />
+      <workItem from="1763370204535" duration="4379000" />
+      <workItem from="1764513808435" duration="313000" />
     </task>
+    <task id="LOCAL-00001" summary="Changes">
+      <option name="closed" value="true" />
+      <created>1762113539016</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1762113539016</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
