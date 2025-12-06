@@ -1,0 +1,71 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Uploads (можно раскомментировать, если не хотите коммитить файлы)
+# uploads/
+# music-catalog-service/uploads/
+# user-service/uploads/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build
+*.jar
+!**/src/main/**/*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Node modules (если будете использовать)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Railway
+.railway/
+
+# Vercel
+.vercel
+
