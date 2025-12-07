@@ -62,7 +62,7 @@
    - **Service Name:** `config-server`
    - **Root Directory:** `config-server`
    - **Build Command:** `cd config-server && mvn clean package -DskipTests`
-   - **Start Command:** `cd config-server && java -jar target/config-server-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd config-server && java -jar target/config-server-1.0.0.jar`
 3. **Variables:**
    ```
    SERVER_PORT=8888
@@ -81,7 +81,7 @@
    - **Service Name:** `eureka-server`
    - **Root Directory:** `eureka-server`
    - **Build Command:** `cd eureka-server && mvn clean package -DskipTests`
-   - **Start Command:** `cd eureka-server && java -jar target/eureka-server-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd eureka-server && java -jar target/eureka-server-1.0.0.jar`
 3. **Variables:**
    ```
    SERVER_PORT=8761
@@ -101,7 +101,7 @@
    - **Service Name:** `user-service`
    - **Root Directory:** `user-service`
    - **Build Command:** `cd user-service && mvn clean package -DskipTests`
-   - **Start Command:** `cd user-service && java -jar target/user-service-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd user-service && java -jar target/user-service-1.0.0.jar`
 3. **Variables:** (добавьте ВСЕ переменные из PostgreSQL + эти):
    ```
    SERVER_PORT=8081
@@ -132,7 +132,7 @@
 **Формула:**
 - Root Directory: `название-сервиса`
 - Build Command: `cd название-сервиса && mvn clean package -DskipTests`
-- Start Command: `cd название-сервиса && java -jar target/название-сервиса-0.0.1-SNAPSHOT.jar`
+- Start Command: `cd название-сервиса && java -jar target/название-сервиса-1.0.0.jar`
 - Variables: те же, что для User Service, но другой `SERVER_PORT`
 
 ---
@@ -144,7 +144,7 @@
    - **Service Name:** `api-gateway`
    - **Root Directory:** `api-gateway`
    - **Build Command:** `cd api-gateway && mvn clean package -DskipTests`
-   - **Start Command:** `cd api-gateway && java -jar target/api-gateway-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd api-gateway && java -jar target/api-gateway-1.0.0.jar`
 3. **Variables:**
    ```
    SERVER_PORT=8080

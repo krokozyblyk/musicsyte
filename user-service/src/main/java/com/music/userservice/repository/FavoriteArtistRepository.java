@@ -31,3 +31,5 @@ public interface FavoriteArtistRepository extends JpaRepository<FavoriteArtist, 
 
 
 
+
+

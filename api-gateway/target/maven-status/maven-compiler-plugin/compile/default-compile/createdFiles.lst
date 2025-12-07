@@ -1,0 +1,3 @@
+com\music\apigateway\config\CorsConfig.class
+com\music\apigateway\controller\FallbackController.class
+com\music\apigateway\ApiGatewayApplication.class

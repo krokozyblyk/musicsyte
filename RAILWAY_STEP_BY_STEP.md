@@ -70,7 +70,7 @@ git push -u origin main
    ```
 6. Найдите раздел **"Start Command"** и укажите:
    ```
-   cd config-server && java -jar target/config-server-0.0.1-SNAPSHOT.jar
+   cd config-server && java -jar target/config-server-1.0.0.jar
    ```
 
 ### 4.3. Переменные окружения
@@ -109,7 +109,7 @@ git push -u origin main
    ```
 4. **Start Command:**
    ```
-   cd eureka-server && java -jar target/eureka-server-0.0.1-SNAPSHOT.jar
+   cd eureka-server && java -jar target/eureka-server-1.0.0.jar
    ```
 
 ### 5.3. Переменные окружения
@@ -138,7 +138,7 @@ EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
    - **Service Name:** `user-service`
    - **Root Directory:** `user-service`
    - **Build Command:** `cd user-service && mvn clean package -DskipTests`
-   - **Start Command:** `cd user-service && java -jar target/user-service-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd user-service && java -jar target/user-service-1.0.0.jar`
 
 ### 6.2. Переменные окружения
 
@@ -178,7 +178,7 @@ EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
    - **Service Name:** `music-catalog-service`
    - **Root Directory:** `music-catalog-service`
    - **Build Command:** `cd music-catalog-service && mvn clean package -DskipTests`
-   - **Start Command:** `cd music-catalog-service && java -jar target/music-catalog-service-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd music-catalog-service && java -jar target/music-catalog-service-1.0.0.jar`
 
 3. **Variables:** (те же переменные, что и для User Service, но `SERVER_PORT=8082`)
 
@@ -198,7 +198,7 @@ EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
 1. "+ New" → "GitHub Repo"
 2. Settings → Root Directory: `название-сервиса`
 3. Build Command: `cd название-сервиса && mvn clean package -DskipTests`
-4. Start Command: `cd название-сервиса && java -jar target/название-сервиса-0.0.1-SNAPSHOT.jar`
+4. Start Command: `cd название-сервиса && java -jar target/название-сервиса-1.0.0.jar`
 5. Variables: те же переменные БД + правильный порт
 
 ---
@@ -216,7 +216,7 @@ EUREKA_CLIENT_SERVICE_URL_DEFAULTZONE=http://eureka-server:8761/eureka/
    - **Service Name:** `api-gateway`
    - **Root Directory:** `api-gateway`
    - **Build Command:** `cd api-gateway && mvn clean package -DskipTests`
-   - **Start Command:** `cd api-gateway && java -jar target/api-gateway-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd api-gateway && java -jar target/api-gateway-1.0.0.jar`
 
 ### 9.3. Переменные окружения
 

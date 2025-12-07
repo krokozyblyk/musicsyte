@@ -9,3 +9,4 @@ fi
 echo "Starting with JAR: $JAR_FILE"
 java -jar "$JAR_FILE"
 
+

@@ -45,7 +45,7 @@
 3. В настройках:
    - **Root Directory:** `config-server`
    - **Build Command:** `cd config-server && mvn clean package -DskipTests`
-   - **Start Command:** `cd config-server && java -jar target/config-server-0.0.1-SNAPSHOT.jar`
+   - **Start Command:** `cd config-server && java -jar target/config-server-1.0.0.jar`
 4. Добавьте переменные окружения:
    ```
    SPRING_PROFILES_ACTIVE=prod
@@ -60,7 +60,7 @@
 1. "New Service" → "GitHub Repo"
 2. **Root Directory:** `eureka-server`
 3. **Build Command:** `cd eureka-server && mvn clean package -DskipTests`
-4. **Start Command:** `cd eureka-server && java -jar target/eureka-server-0.0.1-SNAPSHOT.jar`
+4. **Start Command:** `cd eureka-server && java -jar target/eureka-server-1.0.0.jar`
 5. Переменные окружения:
    ```
    SPRING_PROFILES_ACTIVE=prod
@@ -75,7 +75,7 @@
 1. "New Service" → "GitHub Repo"
 2. **Root Directory:** `api-gateway`
 3. **Build Command:** `cd api-gateway && mvn clean package -DskipTests`
-4. **Start Command:** `cd api-gateway && java -jar target/api-gateway-0.0.1-SNAPSHOT.jar`
+4. **Start Command:** `cd api-gateway && java -jar target/api-gateway-1.0.0.jar`
 5. Добавьте переменные окружения из PostgreSQL (из шага 3)
 6. **ВАЖНО:** В настройках сервиса:
    - Откройте вкладку "Settings"
