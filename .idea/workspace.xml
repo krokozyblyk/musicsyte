@@ -6,40 +6,43 @@
   <component name="ChangeListManager">
     <list default="true" id="b754a0b2-060b-4482-a5e4-d5f951182ed1" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/QUICK_DEPLOY_RAILWAY.md" beforeDir="false" afterPath="$PROJECT_DIR$/QUICK_DEPLOY_RAILWAY.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAILWAY_QUICK_START.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAILWAY_QUICK_START.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RAILWAY_STEP_BY_STEP.md" beforeDir="false" afterPath="$PROJECT_DIR$/RAILWAY_STEP_BY_STEP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/logs/analytics-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/logs/analytics-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/logs/analytics-service.log.2025-11-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/target/classes/com/music/analyticsservice/AnalyticsServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/analytics-service/target/classes/com/music/analyticsservice/AnalyticsServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/ApiGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/ApiGatewayApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/config/CorsConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/controller/FallbackController.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/classes/com/music/apigateway/controller/FallbackController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/logs/music-catalog-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/logs/music-catalog-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music-catalog-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/music-catalog-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/logs/notification-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/logs/notification-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/logs/notification-service.log.2025-11-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/logs/recommendation-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/logs/recommendation-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/logs/recommendation-service.log.2025-11-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/recommendation-service/target/classes/com/music/recommendationservice/RecommendationServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/recommendation-service/target/classes/com/music/recommendationservice/RecommendationServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/logs/search-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/logs/search-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/logs/search-service.log.2025-11-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/search-service/target/classes/com/music/searchservice/SearchServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/search-service/target/classes/com/music/searchservice/SearchServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-service/logs/social-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/social-service/logs/social-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-service/logs/social-service.log.2025-11-02.0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/social-service/railway.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/social-service/target/classes/com/music/socialservice/SocialServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/social-service/target/classes/com/music/socialservice/SocialServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/logs/user-service.log" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/logs/user-service.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/logs/user-service.log.2025-11-02.3.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/railway.json" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/railway.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DEPLOYMENT_SSL_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HOSTING_RECOMMENDATIONS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUICK_DEPLOY_RAILWAY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QUICK_START.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_ADD_VARIABLE_STEP_BY_STEP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_DATABASE_OPTIONS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_FIX_BASH_ERROR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_FIX_JAR_COMMANDS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_FIX_MANUAL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_FIX_NOW.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_FIX_ROOT_DIRECTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_NEXT_AFTER_VARIABLES.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_NEXT_STEPS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_QUICK_FILL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_QUICK_START.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_SETTINGS_FILL.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_SIMPLE_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_STEP_BY_STEP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_VARIABLES_EXACT.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_ИСПРАВИТЬ_СЕЙЧАС.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RAILWAY_НАСТРОЙКИ_ТОЧНО.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README_RAILWAY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/REPORT_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/START_HERE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/USER_SERVICE_АКТИВЕН_ЧТО_ДАЛЬШЕ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/railway-variables-template.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/uploads/UPLOAD_GUIDE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ЕСЛИ_НЕ_СРАБОТАЕТ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ИСПРАВИТЬ_В_RAILWAY_СЕЙЧАС.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ИСПРАВЛЕНИЕ_503_USER_SERVICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ИСПРАВЛЕНИЕ_CORS.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ИСПРАВЛЕНИЕ_JAR_ERROR.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ИСПРАВЛЕНИЕ_USER_SERVICE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ФИНАЛЬНОЕ_ИСПРАВЛЕНИЕ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ЧТО_ДЕЛАТЬ_ДАЛЬШЕ.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ЧТО_ДЕЛАТЬ_С_503_ОШИБКАМИ.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,14 +253,14 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
-      <item itemvalue="Spring Boot.ApiGatewayApplication" />
-      <item itemvalue="Spring Boot.ConfigServerApplication" />
-      <item itemvalue="Spring Boot.EurekaServerApplication" />
-      <item itemvalue="Spring Boot.MusicCatalogServiceApplication" />
-      <item itemvalue="Spring Boot.NotificationServiceApplication" />
       <item itemvalue="Spring Boot.RecommendationServiceApplication" />
       <item itemvalue="Spring Boot.SearchServiceApplication" />
       <item itemvalue="Spring Boot.SocialServiceApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication" />
+      <item itemvalue="Spring Boot.MusicCatalogServiceApplication" />
       <item itemvalue="Spring Boot.UserServiceApplication" />
     </list>
     <recent_temporary>
@@ -293,6 +296,7 @@
       <workItem from="1763370204535" duration="4379000" />
       <workItem from="1764513808435" duration="313000" />
       <workItem from="1765054522492" duration="911000" />
+      <workItem from="1765121830384" duration="1194000" />
     </task>
     <task id="LOCAL-00001" summary="Changes">
       <option name="closed" value="true" />
