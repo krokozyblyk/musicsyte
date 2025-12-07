@@ -19,15 +19,22 @@ public class CorsConfig {
         // Получаем разрешенные домены из переменных окружения или используем по умолчанию
         String allowedOriginsEnv = System.getenv("CORS_ALLOWED_ORIGINS");
         if (allowedOriginsEnv != null && !allowedOriginsEnv.isEmpty()) {
-            corsConfig.setAllowedOrigins(Arrays.asList(allowedOriginsEnv.split(",")));
+            // Разделяем по запятой и убираем пробелы
+            corsConfig.setAllowedOrigins(
+                java.util.Arrays.stream(allowedOriginsEnv.split(","))
+                    .map(String::trim)
+                    .filter(s -> !s.isEmpty())
+                    .collect(java.util.stream.Collectors.toList())
+            );
         } else {
+            // По умолчанию разрешаем локальные домены и популярные домены Vercel/Railway
             corsConfig.setAllowedOrigins(Arrays.asList(
                 "http://localhost:3000",
                 "http://localhost:8080",
                 "http://127.0.0.1:3000",
                 "http://127.0.0.1:8080",
-                "https://*.vercel.app",
-                "https://*.railway.app"
+                "https://musicsyte.vercel.app",
+                "https://musicsyte-production.up.railway.app"
             ));
         }
         
