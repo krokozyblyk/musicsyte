@@ -1,5 +1,5 @@
 // API Configuration
-const API_BASE_URL = window.API_BASE_URL || 'http://localhost:8080'; // API Gateway
+const API_BASE_URL = window.API_BASE_URL || 'https://musicsyte-production.up.railway.app'; // API Gateway
 
 // API Service
 class ApiService {
