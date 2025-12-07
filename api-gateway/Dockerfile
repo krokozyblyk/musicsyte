@@ -1,16 +1,21 @@
-# Этот Dockerfile работает только если Root Directory = api-gateway
-# Если Root Directory = . (корень), используйте Dockerfile в корне проекта
+# Dockerfile для api-gateway
+# Работает если Root Directory = api-gateway
 
 FROM maven:3.9-eclipse-temurin-17 AS build
 
 WORKDIR /app
 
-# Копируем api-gateway (текущая директория уже api-gateway)
-COPY pom.xml /app/pom.xml
-COPY src /app/src
+# Копируем родительский pom.xml (из корня проекта)
+# Если Root Directory = api-gateway, нужно скопировать из родительской директории
+COPY ../pom.xml /app/pom.xml
 
-# Собираем проект (используем локальный pom.xml)
-RUN mvn clean package -DskipTests
+# Копируем api-gateway
+COPY pom.xml /app/api-gateway/pom.xml
+COPY src /app/api-gateway/src
+
+# Собираем api-gateway модуль
+WORKDIR /app
+RUN mvn -pl api-gateway -am clean package -DskipTests
 
 # Финальный образ
 FROM eclipse-temurin:17-jre-alpine
@@ -18,7 +23,7 @@ FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 
 # Копируем собранный JAR
-COPY --from=build /app/target/api-gateway-1.0.0.jar app.jar
+COPY --from=build /app/api-gateway/target/api-gateway-1.0.0.jar app.jar
 
 EXPOSE 8080
 
