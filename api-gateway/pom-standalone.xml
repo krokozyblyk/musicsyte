@@ -1,36 +1,31 @@
-# Dockerfile для api-gateway
-# Работает если Root Directory = api-gateway
-
-FROM maven:3.9-eclipse-temurin-17 AS build
-
-WORKDIR /app
-
-# Копируем api-gateway
-COPY pom.xml /app/pom.xml
-COPY src /app/src
-
-# Заменяем pom.xml на standalone версию (без родительского pom.xml)
-RUN cat > /app/pom.xml << 'EOF'
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.0</version>
         <relativePath/>
     </parent>
+
     <groupId>com.music</groupId>
     <artifactId>api-gateway</artifactId>
     <version>1.0.0</version>
     <name>API Gateway</name>
+    <description>Spring Cloud Gateway</description>
+
     <properties>
         <java.version>17</java.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>2023.0.0</spring-cloud.version>
     </properties>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -42,28 +37,40 @@ RUN cat > /app/pom.xml << 'EOF'
             </dependency>
         </dependencies>
     </dependencyManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-circuitbreaker-reactor-resilience4j</artifactId>
         </dependency>
+        
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
@@ -72,21 +79,6 @@ RUN cat > /app/pom.xml << 'EOF'
             </plugin>
         </plugins>
     </build>
+
 </project>
-EOF
-
-# Собираем проект
-RUN mvn clean package -DskipTests
-
-# Финальный образ
-FROM eclipse-temurin:17-jre-alpine
-
-WORKDIR /app
-
-# Копируем собранный JAR
-COPY --from=build /app/target/api-gateway-1.0.0.jar app.jar
-
-EXPOSE 8080
-
-ENTRYPOINT ["java", "-jar", "app.jar"]
 
